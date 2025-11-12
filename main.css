@@ -1,22 +1,9 @@
-h1 {color: red;} 
-h1 {background-color: black;}    
-h2 {color: rgb(255, 255, 255);}
-h2 {background-color: hsl(120, 50%, 40%)}
-h3 {background-color: yellow;}
-p  {color: hsl(0, 100%, 91.8%)}
-ul {background-color: hsl(208, 44.4%, 85.9%)}
-ol {color:lightgray}
-ol {background-color: hsl(208 0% 100%)}
-body{background-color: hsla(303, 85%, 34%, 1)}
-h1 {font-size: 40px}
-h2 {font-weight: lighter;}
-h3{font-style: italic;}
-p:first-line {font-variant: small-caps;}
-h1{text-align: left;}
-h2{text-decoration: overline;}
-em{text-transform: uppercase;}
+h1 {color:red;background-color:#000000;font-size:40px;text-align:left;}   
+h2 {color:rgb(255, 255, 255);background-color:hsl(120, 50%, 40%);font-weight:lighter;text-decoration:overline;}
+h3 {background-color:yellow;font-style:italic;line-height:1.35;word-spacing:0.25em;}
+p  {color:hsl(0, 100%, 91.8%);:first-line font-variant:small-caps;}
+ul {background-color:hsl(208, 44.4%, 85.9%);letter-spacing:0.0625em;}
+ol {color:lightgray;background-color:hsl(208 0% 100%);letter-spacing:0.0625em;}
+body{background-color:hsla(303, 85%, 34%, 1);}
+em{text-transform:uppercase;}
 strong{text-shadow: 3px 3px 5px black;}
-h3{line-height: 1.35;}
-ol{letter-spacing: 0.0625em;}
-ul{letter-spacing: 0.0625em;}
-h3{word-spacing: 0.25em;}
